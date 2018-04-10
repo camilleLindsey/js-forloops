@@ -11,6 +11,21 @@ Write a for-loop that will iterate through 20 numbers (starting at 1 and ending 
 "Now serving 20."
 */
 
+var numberArray = [];
+
+for(var i = 1; i <= 20; i++){
+    numberArray.push(i);
+}
+console.log("now serving", numberArray); 
+
+
+
+var step;
+for (step = 1; step < 21; step++) {
+  // Runs 20 times, with values of step 1 through 21.
+  console.log('now serving', step);
+}
+
 
 /* 2) Pop Charts
 Write a for-loop that will iterate through the topFive array below and console.log the following message:
@@ -22,7 +37,10 @@ This week's chart buster is: '24K Magic.'
 */
 
 var topFive = ["Closer", "Starboy", "I Feel It Coming", "Let Me Love You", "24K Magic"];
-
+for(var i = 1; i <= 0; i++){
+  topFive.push(i);
+}
+console.log("This week's chart buster is:", topFive);
 
 /* 3) Dead Presidents
 Declare a variable named `presidents` and assign it to an array containing the following Presidents: Washington, Adams, Jefferson, Madison and Monroe.
@@ -43,6 +61,9 @@ This function will iterate through the person parameter and console.log the foll
 
 "President person was a great leader."
 */
+var presidents = ["Washington", "Adams", "Jefferson", "Madison", "Monroe"]
+
+
 
 
 /* 4) Line Number
