@@ -45,6 +45,7 @@ for (var i = 0; i < topFive.length; i++) {
   
 
   console.log("This week's chart buster is:" + topFive[i]);
+  
 }
 
 
